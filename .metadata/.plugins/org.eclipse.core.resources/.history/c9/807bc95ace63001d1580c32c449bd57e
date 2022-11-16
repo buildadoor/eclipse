@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+</style>
+</head>
+<body>
+	<h2>안녕하세요</h2>
+	<h2>안녕하세요</h2>
+	<h2>안녕하세요</h2>
+	<span>과일</span>
+	<span id="chFruit">과일</span>
+	<span>과일</span><br>
+	<h4>변경할까요? 모두다~</h4>
+	<h4>변경할까요? 모두다~</h4>
+	<h4>변경할까요? 모두다~</h4>
+	<h4>변경할까요? 모두다~</h4>
+	<h4>변경할까요? 모두다~</h4>
+
+</body>
+<script type="text/javascript">
+	//querySelector("선택자")는 단일만 선택되어진다.
+	document.querySelector("h2").innerText="첫번째만! 변경!"
+	document.querySelector("#chFruit").innerText="바나나(id값으로)"
+	// {}==>["사과"]
+	var array = document.querySelectAll("h4")
+	// 배열의 접근자 indexf를 활용하여 0,1,2, ..
+	array[0].inneText = "첫번째"
+	array[1].inneText = "두번째"
+	array[2].inneText = "세번째"
+	array[3].inneText = "네번째"
+	array[4].inneText = "다섯번째"
+	/*
+
+*/
+//
+</script>
+</html>

@@ -1,0 +1,58 @@
+# 자바스크립트의 지식계열화
+1. 웹에 대한 이해
+2. 웹개발에서 자바스크립트의 위치와 기능 
+	1) 서버와의 관계에서 실행 시점
+		- 소스는 서버
+		- 실행을 브라우저에 실행 (node 등 최근에는 서버에서 실행하여 전달하는 경우도 있음)
+	2) 서버 프로그램(jsp)과 javascript의 연동
+	3) ajax통해서 비동기적으로 서버에 데이터 받아서 javascript 처리 
+	
+3. 프로그래밍 공통 
+	1) 변수 : 데이터 유형이 가변적 - 실제 데이터를 할당하는 순간에 데이터 유형이
+			결정 var,let, const 
+			ex) var num01 = 25; var name="홍길동";
+			
+	2) 데이터 유형
+		- 종류 : 숫자형(number), 문자열형(string), 함수형(function),
+				boolean형(true/false), 객체(object)
+		- 형변환 : 자유롭게 데이터 변환이 일어난다.
+			"25" * "3" ==> 75
+			"25"+"3" ==> 253 
+			25+3 ==> 28 
+			명시적으로 형변환 함수
+			Number("25") + parseInt("30") + parseFloat("5.5")
+			==> 60.5 
+			
+	3) 조건문/반복문
+		if(){}, for(var idx=0;idx<30;idx++){}
+		for(var idx in arry){ //배열일 때
+			idx, arry[idx] 	idx 0시작하는데 문자열 "0", "1"...
+							arr['0'] arr['1] arr['2']
+		}
+		for(var prop in obj){ //객체일 때. {name:"홍길동", age:25}
+			prop, obj[prop]		prop==> name, age, 
+		}						obj[prop] ==> p01[name], p01[age]
+		배열.forEach(function(idx, obj){});
+	
+	4) 배열형 데이터
+		var arry = [데이터, 데이터2
+4. 함수처리 	
+	1) 내장형 함수
+		setInterval(반복할 시간, function(){반복할 내용})
+		setTimeout(시간, function(){ 시간 이후에 처리할 내용})
+		
+	2) 사용자 정의 함수 
+		function 함수명(){}
+		var 함수명 = function(){}
+		
+		함수명();
+5. 객체형 데이터 
+	1) 내장형 객체
+	2) 사용자 정의 객체
+6. 예외 처리
+7. DOM객체(화면에서 요소 태그 객체)
+8. BOM객체(frame이나 window형 객체)
+9. 기타 api
+10. ajax 처리
+11. jquery
+12. vue

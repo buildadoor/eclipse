@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kurly 마켓컬리/뷰티컬리</title>
+<link href="logo.ico" rel="shortcut icon" type="image/x-icon">
+<style type="text/css">
+h1{font-size:35px; font-family:"Times New Roman";color:darkviolet;text-align:left;}
+h4{accent-color:purple;}
+span{font-size:18px;color:lightgray;}
+
+#box{
+	margin-top:50px;
+	accent-color:purple;
+}
+</style>
+</head>
+<body>
+<h1><strong>Kurly</strong></h1>
+<br><br>
+<h2 align="center">장바구니</h2>
+<br><br>
+<h4><input type="checkbox"> 전체선택 | 선택삭제</h4>
+<hr>
+ <table width="100%" height="100%">
+ 	<col width="100px"><col width="500px"><col width="300px">
+ 	
+ 	<tr><td><input id="box" type="checkbox"></td><td><img src="/z02_kurlyproject/product01.jpg" width="100px" height="150px"/></td>
+ 	<td align:"left" text-color:"darkgray">[미트클레버] 소갈비찜</td>
+ 	<td><input type="number" id="pcnt" min="1" max="10" placeholder="1"></td><td>35,000원</td>
+ 	<td><input type="button" value="X" onclick="alert('장바구니 목록에서 삭제되었습니다.')">
+ 	<input type="button" value="담기" onclick="location.href='basket.html'"></td></tr>
+ 
+</table>
+
+</body>
+</html>

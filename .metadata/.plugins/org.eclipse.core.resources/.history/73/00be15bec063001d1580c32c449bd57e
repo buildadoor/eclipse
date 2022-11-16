@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+</style>
+<script type="text/javascript">
+	// 상단에 선언하는 부분
+	// 화면 body가 로딩되기 전에 처리할 부분
+</script>
+</head>
+<body>
+<script type="text/javascript">
+	//body가 로딩된 후에 처리할 부분
+	//DOM객체를 인식할 수 있는 상황
+</script>
+</body>
+</html>

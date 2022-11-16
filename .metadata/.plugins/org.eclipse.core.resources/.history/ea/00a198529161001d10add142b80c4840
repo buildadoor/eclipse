@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+</style>
+<script type="text/javascript"></script>
+<!--  ex) lib2.js 만들고 함수 call()선언
+	아래 클릭시, alert('^^반갑습니다.')가 호출되게 처리하세요. -->
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# css3를 표 꾸미기
+1. 적용 주요 옵션
+	1) border: 표 테두리
+	2) border-collapse:collapse; 중복된 테두리 합치기
+	3) height/width : th/td의 폭과 넓이 개별적 조정
+	4) padding : 여백설정
+	5) text-align: td 안에 정렬 처리 
+*/
+</style>
+</head>
+<body>
+
+</body>
+</html>

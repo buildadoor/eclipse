@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# css3를 표 꾸미기
+1. 적용 주요 옵션
+	1) border: 표 테두리, border-bottom : 하단의 테두리 설정.
+	2) border-collapse:collapse; 중복된 테두리 합치기
+	3) height/width : th/td의 폭과 넓이 개별적 조정
+	4) padding : 여백설정
+	5) text-align: td 안에 정렬 처리
+	6) nt-child(even) : 짝수 행 단위 처리
+	7) tr:hover : 마우스커서 이동시 처리
+*/
+</style>
+</head>
+<body>
+	<h3>2022년 2학기 성적</h3>
+	<table>
+		<thead>
+			<tr><th>이름</th><th>자바</th><th>오라클</th><th>html</th></tr>
+		</thead>
+		<tbody>
+			<tr><td>황기태</td><td>80</td><td>90</td><td>80</td></tr>	
+			<tr><td>이재문</td><td>70</td><td>80</td><td>60</td></tr>	
+			<tr><td>이병은</td><td>90</td><td>90</td><td>100</td></tr>	
+			<tr><td>김남윤</td><td>80</td><td>100</td><td>80</td></tr>	
+		</tbody>
+		<tfoot>
+				<tr><th>합</th><th>320</th><th>360</th><th>320</th></tr>
+		</tfoot>
+	</table>
+
+</body>
+</html>

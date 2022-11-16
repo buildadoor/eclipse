@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+	#menubar{ background:yellowgreen;}
+	#menubar ul{/*여백과 패딩처리*/
+		margin:0;
+		padding:0;
+		width:1000px
+	
+	}
+	#menubar ul li{
+		display:inline-block;
+		list-style-type:none;
+		padding:0px 15px;	
+	}
+	#menubar ul li a{
+		color:black;
+		text-decoration:none;	
+	}
+	#menubar ul li a:hover{
+		color:white;
+		}
+</style>
+</head>
+<body>
+<!-- 
+ex) a11_list_menu2.html로 gmarket의 상단 메뉴를 만들어보세요.
+
+ -->
+<h2>G마켓메뉴</h2>
+<nav id = "menubar">
+	<ul>
+		<li><a href="#">베스트</a>
+		<li><a href="#">슈퍼딜</a>
+		<li><a href="#">쿠폰,출첵</a>
+		<li><a href="#">스마일프레시</a>
+		<li><a href="#">스마일배송</a>
+		<li><a href="#">스마일클럽</a>
+	</ul>
+</nav>
+</body>
+</html>

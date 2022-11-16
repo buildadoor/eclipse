@@ -1,0 +1,3 @@
+function call(obj){
+	obj.innerText="안녕하세요";
+}

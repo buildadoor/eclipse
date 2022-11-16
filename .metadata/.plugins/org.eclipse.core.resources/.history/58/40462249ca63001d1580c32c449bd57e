@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# DOM
+1. document object model이란 말로 js에서 화면을 객체로 인식하여,
+	해당 객체의 속성을 로직에 의해서 변경함으로 효과적으로 동적인 처리를
+	하기위하여 처리하는 객체 모델링 형태이다.
+2. 기본 코드
+	1) 단일 객체 인식
+		var object = document.querySelector("선택자")
+		//단일 객체 선언과 할당.
+	2) 다중 객체 인식
+		var array = document.querySelectorAll("선택자")
+	cf) css에서 사용하는 선택자를 이용하여 단일 객체에 대한 처리와 다중 객체에
+	대한 처리를 할 수 있다.
+3. DOM객체 인식 방법
+	1) 태그가 선언한 하단에서 호출
+		<body>
+			<h2>
+		<script>
+			document.querySelector("h2")
+	2) 함수를 통해서 특정한 이벤트가 처리된 후에 호출
+		<script>
+			function chText(){
+				document.querySelector("h2")
+			}
+		<body>
+			<h2 onclick="chText()">
+4. DOM객체의 속성 활용
+	1) 화면 출력 형태에 따른 코드 
+		- h1~~, div, p, span 형식은 기본적으로 출력을 처리하는 내용을
+			포함한 코드이다.
+			innerText : 문자열 그대로 해당 요소객체에 출력 처리
+				obj.innerText="안녕"
+			innerHTML : div, p, 시맨틱태그(header, nav, foot,)
+				등 다른 태그를 포함하는 태그에서 html코드를 랜더링이 필요할 때
+				html태그를 랜더링까지 처리해준다.
+				obj.innerText="<h3>반가워요</h3>"
+		- form 요소 객체는 출력의 내용을 value 속성으로 처리되는 코드가 있다.
+		
+*/
+</style>
+</head>
+<body>
+
+
+
+</body>
+<script type="text/javascript">
+/*
+
+*/
+//
+</script>
+</html>

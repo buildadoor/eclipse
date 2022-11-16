@@ -1,0 +1,7 @@
+package jspexp.vo;
+
+public class Computer {
+	private String company;
+	private int price;
+	private String type;
+}

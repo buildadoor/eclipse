@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# fixed 옵션
+1. 특정 요소객체가 로딩 기준으로 스크롤 되더라도 특정한 위치에 계속 유지되게 처리하는 기능을 
+	말한다.
+*/
+	#fixed{
+		position:fixed;
+		top:10px;left:50px;
+		width:100px;height:100px;
+		background:red;
+	}
+</style>
+</head>
+<body>
+	<div id="#fixed"><</div>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+	<br><br><br><br><br><br><br><br><br><br><h2>다음내용</h2>
+</body>
+</html>

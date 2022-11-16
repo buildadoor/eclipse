@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<style>
+	table{border-collapse:collapse;}
+	</style>
+</head>
+<body>
+3번 문제 
+<table id="prodTab" width="50%" border>
+	<tr><th>물건명</th><td></td></tr>
+	<tr><th>가격</th><td></td></tr>
+	<tr><th>갯수</th><td></td></tr>
+	<tr><th>총계</th><td></td></tr>
+	</table>
+<script type="text/javascript">
+	var pname = prompt("물건명","")
+	var price = prompt("가격입력","0")
+	var cnt = prompt("갯수입력","0")
+	var tds = document.querySelectorAll("#prodTab td");
+	tds[0].innerText = pname;
+	tds[1].innerText = price;
+	tds[2].innerText = cnt;
+	tds[3].innerText = price*cnt; //js에서 +(덧셈)연산자 이외는 자동형변환을 해준다.
+	</script>
+</body>
+</html>

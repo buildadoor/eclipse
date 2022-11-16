@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# css 고급
+1. 학습 목표 
+	1) html 태그가 출력하는 위치를 조절할 수 있다.
+	2) 리스트를 예쁘게 꾸밀 수 있다.
+	3) 표를 예쁘게 꾸밀 수 있다.
+	4) 폼을 꾸미고,사용자의 입력에 반응하게 할 수 있다. 
+	5) 애니메이션, 전환(transition), 변환(transform) 효고를 만들 수 있다.
+# 배치
+1. css html 태그가 출력되는 위치 지정
+	1) html 태그는 웹 페이지에 작성된 순서와 달리 배치 가능
+	2) 배치 기능의 css3 프로퍼티들
+		1) display
+		2) position
+		3) left, right, top, bottom
+		4) float
+		5) z-index
+		6) visivillity
+		7) overflow
+# 블럭 박스와 인라인 박스
+1. html 태그는 인라인 태그와 블록 태그로 나뉜다.
+	- 인라인 태그는 인라인 박스, 블록 태그는 블록 박스로 출력
+2. 블록 박스와 인라인 박스의 디폴트 출력 모양
+	블록 박스 : 줄바꿈을 포함하고, 여러 내용을 행단위로 포함시킬 수 있다.
+	인라인 박스 : 줄바꿈을 포함하지 않고 있고, 여러 내용을 행단위로 포함 시킬 수 없고,
+		라인으로만 포함 처리할 수 있다.
+		
+*/
+</style>
+</head>
+<body>	
+	<h2>블록 박스</h2>
+	<div>블럭1</div> 
+	<div>블럭2</div>
+	<div>블럭3</div> 
+	<h2>인라인 박스</h2>
+	<span>인라인1</span> 
+	<span>인라인2</span> 
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+</style>
+<script type="text/javascript">
+	// 상단에 선언하는 부분
+	// 화면 body가 로딩되기 전에 처리할 부분
+	// 선언적 함수를 선언하여 하단 body에서 이벤트 형식으로
+	// 호출하여 처리할 때, 주로 사용된다.
+	
+	
+</script>
+
+</head>
+<body>
+</body>
+<script type="text/javascript">
+	//body가 로딩된 후에 처리할 부분
+	/*
+	#js 기본 출력 형식
+	1. 경고창 
+		alert ("출력내용");
+	2. console출력
+		f12으로 console 확인
+		console.log("출력내용")
+	3. 화면 출력
+		document.write("출력내용")
+		==> body하단에 DOM객체로 특정 요소객체 접근해서
+		처리
+		document.querySelector("hi").innerText="안녕하세요"
+	*/
+	
+	//DOM객체를 인식할 수 있는 상황
+document.querySelector("h2").innerText="변경되었네요!^^"
+	</script>
+</html>

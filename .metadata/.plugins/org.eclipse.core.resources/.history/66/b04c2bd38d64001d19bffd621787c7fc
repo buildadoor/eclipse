@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"
+      import="jspexp.vo.Player"
+    import="java.util.*"
+    %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+    <%
+    List<Player> plist = new ArrayList<Player>();
+    plist.add(new Player("SSG","최정",0.381));
+    plist.add(new Player("키움","김이",0.453));
+    plist.add(new Player("SSG","나박",0.321));
+ 
+  	for(int idx=0;idx<plist.size();idx++){
+  		Player p = plist.get(idx);
+  		log(p.getTeam()+":"+p.getPname()+":"+p.getScore());
+  	}
+    %>
+   <table width=300px border>
+	<tr><th>소속팀</th><th>선수명</th><th>성적</th></tr>
+	<%for(Player p:plist){%>
+	<tr><td><%=p.getTeam()%></td><td><%=p.getPname()%></td><td><%=p.getScore()%></td></tr>
+	<%}%>
+</table> 
+    
+</body>
+</html>

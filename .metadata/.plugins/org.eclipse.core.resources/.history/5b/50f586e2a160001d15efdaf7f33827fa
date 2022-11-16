@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+	ex)a07_float설정으로 새로운 페이지를 만들어
+	안녕하세요 각각 문자 div를 만들어
+	float옵션을 통해 반대로 나오게 처리하세요. 
+	==>요세하녕안
+*/
+	div{
+		float:right;
+		border:3px solid orange;
+		width:3cm;
+		padding:0.25em;
+		margin:1em;
+		
+	}
+/*
+# 화면에서 보이지 않게 처리
+1. visibility:hidden
+*/
+	h3.cls01{
+		visibility:hidden;
+	}
+	h3.cls02{
+		display: none;
+	}
+</style>
+</head>
+<body>
+	<h3>화면 처리내용1</h3>
+	<h3 class="cls01">화면 처리내용2</h3>
+	<h3>화면 처리내용3</h3>
+	<h3 class="clas02">화면 처리내용4</h3>
+	<h3>화면 처리내용5</h3>
+	
+	<div>안</div>
+	<div>녕</div>
+	<div>하</div>
+	<div>세</div>
+	<div>요</div>
+</body>
+</html>

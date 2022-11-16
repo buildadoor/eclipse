@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%-- jsp의 주석 --%>
+	<% 
+	// scriptlet
+	String name="홍길동";// java
+	%>
+	<%-- 표현 처리. --%>
+	<h2>이름:<%= name%></h2>
+</body>
+</html>

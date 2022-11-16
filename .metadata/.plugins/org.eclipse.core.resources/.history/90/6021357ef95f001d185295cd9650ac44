@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# display:inline
+1. div를 inline으로 수정
+*/
+	div>div{
+		display:inline;
+		border:1px dashed navy;
+	}
+	/*
+	ex)  p의 자손 p태그는 inline으로 처리하세요
+	
+	*/
+	p>p{
+		display:inline;
+	}
+</style>
+</head>
+<body>
+	<div style="background:orange">
+		<div>인라인 div1</div>
+		<div>인라인 div2</div>
+		<div>인라인 div3</div>
+		</div>
+	<div style="background:pink">
+		<div>인라인 div1</div>
+		<div>인라인 div2</div>
+		<div>인라인 div3</div>
+		</div>
+		
+		<p style="background:green" width:100px; height:80px;>
+		<p>인라인 p1</p>
+		<p>인라인 p1</p>
+		<p>인라인 p1</p>
+		</p>
+		<p style="background:yellow" width:100px; height:80px;>
+		<p>인라인 p1</p>
+		<p>인라인 p1</p>
+		<p>인라인 p1</p>
+		</p>
+</body>
+</html>

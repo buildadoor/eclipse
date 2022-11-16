@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Kurly 마켓컬리/뷰티컬리</title>
+<link href="logo.ico" rel="shortcut icon" type="image/x-icon">
+<style type="text/css">
+h1{font-size:35px; font-family:"Times New Roman";color:darkviolet;text-align:left;}
+h4{accent-color:purple;}
+span{font-size:18px;color:lightgray;}
+#img{ width:150px;height:150px;}
+#box{
+	margin-top:50px;
+	accent-color:purple;
+}
+</style>
+</head>
+<body>
+<h1><strong>Kurly</strong></h1>
+<br><br>
+<h2 align="center">장바구니</h2>
+<br><br>
+<h4><input type="checkbox"> 전체선택 | 선택삭제</h4>
+<hr>
+ <table width="80%" height="100%">
+ 	<col width="100px"><col width="500px"><col width="300px">
+ 	
+ 	<tr><td><input id="box" type="checkbox"></td><td><img src="/z02_kurlyproject/product01.jpg" width="100px" height="150px"/></td>
+ 	<td align:"left" text-color:"darkgray">[미트클레버] 소갈비찜</td>
+ 	<td><input type="number" id="pcnt" min="1" max="10" placeholder="1"></td><td>35,000원</td>
+ 	<td><input type="button" value="X" onclick="alert('장바구니 목록에서 삭제되었습니다.')"></td></tr>
+ 	
+ 	<tr><td><input id="box" type="checkbox"></td><td><img src="/z02_kurlyproject/product02.jpg" width="100px" height="150px"/></td>
+ 	<td align:"left" text-color:"darkgray">[이치류] 드라이에이징 양갈비 구이</td>
+ 	<td><input type="number" id="pcnt1" min="1" max="20" placeholder="2"></td><td>23,900원</td>
+ 	<td><input type="button" value="X" onclick="alert('장바구니 목록에서 삭제되었습니다.')"></td></tr>
+ 	
+ 	<tr><td><input id="box" type="checkbox"></td><td><img src="/z02_kurlyproject/product03.jpg" width="100px" height="150px"/></td>
+ 	<td align:"left" text-color:"darkgray">김장용 평창 고랭지 절임 배추 10kg</td>
+ 	<td><input type="number" id="pcnt2" min="1" max="10" placeholder="3"></td><td>38,703원</td>
+ 	<td><input type="button" value="X" onclick="alert('장바구니 목록에서 삭제되었습니다.')"></td></tr>
+ 
+</table>
+
+</body>
+</html>

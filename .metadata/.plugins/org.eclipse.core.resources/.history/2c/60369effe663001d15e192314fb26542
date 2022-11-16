@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%--
+# jsp에서 조건문과 반복문 처리 
+1. 반복문 처리 
+	1) 자바코드는 scriptlet에 넣고, 출력하는 부분은 expression에 넣어
+		구분하여 처리..
+	2) 처리 순서 
+		- 한 단위 기본 코드를 만든다.
+		- 출력할 부분을 index0으로 처리해본다.
+ 		- 출력 내용을 위아래나 java코드는 <%%>로 감싸준다.
+		- 반복문의 기본 형식을 아래 위로 넣는다.
+		- index부분을 변수로 처리해준다.
+ --%>
+ <%
+ 	String[]arry={"사과","바나나","딸기"};
+ //	for(String fruit:arry){
+ 	//	System.out.println(fruit);
+ //	}
+ %>
+ 	<%for(String fruit:arry){%>
+ 	
+ 	<h2><%=fruit%></h2>
+	<%}%>
+<%--ex) 가격을 배열로 만들고, 반복문을 통해서 h3로 출력하세요--%>
+
+<%
+	int[]prices={1000,2000,3000};
+	//for(int idx=0; id<prices.length;idx++){
+		//System.out.println(prices[idx]);
+	//}
+	
+	
+%>
+	<%for(int idx=0; id<prices.length;idx++){%>
+ 	
+ 	<h3><%=prices%></h3>
+	<%}%>
+
+</body>
+</html>

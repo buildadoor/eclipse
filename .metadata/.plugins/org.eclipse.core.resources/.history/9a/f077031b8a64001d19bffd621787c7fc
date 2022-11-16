@@ -1,0 +1,7 @@
+package jspexp.vo;
+
+public class DeptClass {
+	private int deptno;
+	private String dname;
+	private String loc;
+}

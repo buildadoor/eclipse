@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# 폼꾸미기
+1. 글자 색상 지정
+	input[type=text]{color:red}
+2. 테두리만들기
+	input[type=text]{
+		border:2px solid skyblue;
+		border-radius:5px;
+	}
+3. 마우스 올라올 때
+	input[type=text]: hover{
+		background:aliceblue;
+	}
+*/
+</style>
+</head>
+<body>
+
+</body>
+</html>

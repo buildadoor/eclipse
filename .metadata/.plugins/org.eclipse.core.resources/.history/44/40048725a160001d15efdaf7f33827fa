@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+	ex)a07_float설정으로 새로운 페이지를 만들어
+	안녕하세요 각각 문자 div를 만들어
+	float옵션을 통해 반대로 나오게 처리하세요. 
+	==>요세하녕안
+*/
+	div{
+		float:right;
+		border:3px dotted black;
+		width:3cm;
+		padding:0.25em;
+		margin:1em;
+		
+	}
+</style>
+</head>
+<body>
+	<div>안</div>
+	<div>녕</div>
+	<div>하</div>
+	<div>세</div>
+	<div>요</div>
+
+</body>
+</html>

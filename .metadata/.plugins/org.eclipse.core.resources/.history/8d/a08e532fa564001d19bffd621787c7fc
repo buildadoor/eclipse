@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="/a00_com/a01_common.css" rel="stylesheet">
+<style type="text/css">
+/*
+
+*/
+</style>
+<script>
+/*
+#js의 함수 처리 
+1. 함수는 가능처리를 위한 코드의 집합체라고 할 수 있다.
+2. 기본 형식
+	function 함수명(매개변수,...){
+		프로세스 처리
+	
+		return 리턴값;
+
+}
+ */
+
+	function plus(num01, num02){
+		var sum = num01 + num02;
+		return sum;
+}//alter(plus(10,20));
+ 	//ex) 물건가격과 갯수를 매개변수로 전달해서 종합을 리턴하여 
+ 	//alter()로 로딩하세요 
+ 		function calcu(price, cnt){
+		var sum= price*cnt;
+		return sum;
+		}
+		alter( calcu(2000,3) );
+		console.log( calcu (2000,3) );
+	
+	
+</script>
+</head>
+<body>
+	<h1></h1>
+</body>
+<script>
+/*
+
+*/
+//
+</script>
+</html>

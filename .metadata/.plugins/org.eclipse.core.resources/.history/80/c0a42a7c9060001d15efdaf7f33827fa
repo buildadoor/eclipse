@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div.bnt01{ border:2px solid yellow;
+				border-radius:10x;
+				box-shadow:3px 3px 5px blue;
+				text-align:center;
+				padding:20px;
+				width:50px;height:10px;background:navy;color:white;
+				}
+</style>
+</head>
+<body>
+<div class="bnt01">버튼</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="/a00_com/a01_common.css" rel="stylesheet">
+<style type="text/css">
+/*
+
+*/
+</style>
+<script type="text/javascript">
+/*
+ 
+ */
+</script>
+</head>
+<body>
+	물건명:<input type="text"/>
+	가격:<input type="text"/>
+	갯수:<input type="text"/>
+	<input type="button"/>
+	<h2>계산결과</h2>
+	
+
+</body>
+<script>
+/*
+ex)입력 form으로 물건명, 가격, 갯수를 입력 후 계산 버튼을
+클릭시 하단에 h2로 물건과 총계가 출력되게 처리하세요 .
+*/
+//
+</script>
+</html>

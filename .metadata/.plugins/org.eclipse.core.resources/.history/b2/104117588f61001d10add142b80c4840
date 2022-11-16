@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+
+*/
+</style>
+<!-- 상대위치 파일 호출 -->
+<script src="lib.js" type="text/javascript"></script>
+<script type="text/javascript">
+	function chImg(obj){
+		obj.src="/a00_img/apple.jpg";
+	}
+	function chImg2(obj){
+		obj.src="/a00_img/berry.jpg";
+	}
+</script>
+</head>
+<body>
+<h2>이벤트 리스터 속성에 의한 자바스크립트 코드</h2>
+<hr>
+<img src="/a00_img/peach.jpg"
+   onmouseover = "this.src='/a00_img/apple.jpg'"
+   onmouseout = "this.src='/a00_img/berry.jpg'"
+/>
+</body>
+</html>

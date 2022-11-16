@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/*
+# display:inline
+1. div를 inline으로 수정
+*/
+	div>div{
+		display:inline;
+		border:1px dashed navy;
+	}
+</style>
+</head>
+<body>
+	<div style="">
+</body>
+</html>
